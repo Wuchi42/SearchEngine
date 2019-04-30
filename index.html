@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Engine</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+
+<script src="javascript/actions.js"></script>
+<script src="javascript/show.js"></script>
+<table id="searchTable" class="round">
+    <tr>
+        <td id="searchInputCell"><input id="searchInput" type="text" placeholder="Search..." onkeydown="fSearchBoxSubmitByEnter(this)"></td>
+
+        <td id="searchButtonCell"><input type="submit" id="searchButton" value="SEARCH" onclick="fSubmit()" ></td>
+    </tr>
+
+</table>
+<div id="noResults" class="round">
+   <h2 id="errorText"></h2>
+</div>
+<div id="results" class="round">
+
+    <table id=resultsNav class="round">
+        <tr>
+        </tr>
+    </table>
+
+
+    <div id="imageResults" class="round">
+
+
+        <div id="imageResultsHeader"><h2>Image results</h2></div>
+
+
+        <div id="imageResultsItems">
+            <div id="column1">
+                <div id="imageResult0"></div>
+                <div id="imageResult2"></div>
+                <div id="imageResult4"></div>
+            </div>
+            <div id="column2">
+                <div id="imageResult1"></div>
+                <div id="imageResult3"></div>
+                <div id="imageResult5"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<div id="webResults" class="round">
+    <div id="webResultsHeader"><h2>Web results</h2></div>
+            <table id="webResultsItems">
+                <tr>
+                    <td id="webResult0"></td>
+                </tr>
+                <tr>
+                    <td id="webResult1"></td>
+                </tr>
+                <tr>
+                    <td id="webResult2"></td>
+                </tr>
+                <tr>
+                    <td id="webResult3"></td>
+                </tr>
+                <tr>
+                    <td id="webResult4"></td>
+                </tr>
+                <tr>
+                    <td id="webResult5"></td>
+                </tr>
+            </table>
+</div>
+
+
+</div>
+
+<div id="footer"></div>
+
+</body>
+</html>

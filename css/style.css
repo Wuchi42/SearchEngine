@@ -1,0 +1,134 @@
+.round{
+    border-radius: 25px;
+}
+#noResults h2, #imageResultsHeader, #webResultsHeader,  #resultsNav, #column1 div, #column2 div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imageResults, #webResults, #resultsNav td, #column1 {
+    float: left;
+}
+
+#searchTable, #results, #noResults {
+    position: relative;
+    transform: translate(-50%, 0);
+    margin: 24px 50% 0px 50%;
+}
+
+#results, #noResults {
+    display: none;
+    width: 96%;
+}
+
+#noResults h2, #imageResultsHeader, #webResultsHeader {
+    width: max-content;
+}
+
+#column2, #webResults td {
+    float: right;
+
+}
+#column2, #column1, #imageResults{
+    overflow: hidden;
+}
+
+#imageResults, #webResults {
+    width: 48%;
+    min-height: 900px;
+    background-color: white;
+    margin: 1%;
+    position: relative;
+    box-shadow: inset 0px 0px 10px 10px rgba(0, 0, 0, 0.64);
+}
+
+#searchTable {
+    background-color: cadetblue;
+    width: 50%;
+    box-shadow: 0px 11px 18px 3px rgba(0, 0, 0, 0.5);
+}
+
+#searchInput {
+    width: 100%;
+    height: 16px;
+    border-radius: 10px;
+    padding-left: 8px;
+}
+
+#searchInput, #searchButton {
+    border-radius: 10px;
+}
+
+#searchInputCell {
+    padding: 16px;
+    width: 90%;
+}
+
+#searchButton {
+    height: 22px;
+    margin-top: 3px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: whitesmoke;
+
+}
+
+a:hover {
+    color: purple;
+}
+
+h3 {
+    color: blue;
+    font-weight: bold;
+}
+
+h4 {
+    color: gray;
+    font-weight: bold;
+    font-size: medium;
+}
+
+a {
+    color: green;
+}
+
+a:visited {
+    color: purple;
+}
+
+#webResults td {
+    width: 99%;
+}
+
+#resultsNav td {
+    width: min-content;
+    font-size: x-large;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+
+#column1, #column2 {
+    flex: 50%;
+    max-width: 44%;
+    margin: 3%;
+}
+
+#column1 div, #column2 div {
+    margin-top: 8px;
+}
+
+#results tr {
+    vertical-align: top;
+}
+
+th, #results tr {
+    height: min-content;
+}
+
+#webResultsItems{
+    margin-left: 8px;
+}
